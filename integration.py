@@ -64,7 +64,6 @@ def create_servicenow_incident(snow_instance, snow_username, snow_password, shor
         print(response.text)
         return None
 
-# Example usage
 if __name__ == "__main__":
     # JIRA credentials and details
     jira_url = os.getenv("JIRA_URL")
